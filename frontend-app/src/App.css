@@ -1,0 +1,65 @@
+/* General styles for the entire application */
+.App {
+  font-family: 'Arial', sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f0f8ff; /* Light sky blue background */
+}
+
+/* Style for the main heading */
+.App h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Style for the JobForm and JobList containers */
+.job-form-container,
+.job-list-container {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #add8e6; /* Light blue border */
+  border-radius: 8px;
+  background-color: #e0ffff; /* Light cyan background */
+}
+
+/* Style for form elements inside JobForm */
+.job-form-container h2 {
+  text-align: center;
+  color: #555;
+}
+
+.job-form-container input[type="text"],
+.job-form-container input[type="date"],
+.job-form-container select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #87ceeb; /* Sky blue border */
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Style for the submit button in JobForm */
+.job-form-container button {
+  background-color: #87ceeb; /* Sky blue button */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.job-form-container button:hover {
+  background-color: #1da1f2  /* Slightly darker sky blue on hover */
+}
+
+.app-container {
+  border: 15px solid black;
+  padding: 2rem;
+  background-color: #0076CE;
+  border-radius: 6px;
+  text-align: center; /* This will center-align the content */
+}
